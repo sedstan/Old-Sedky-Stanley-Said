@@ -5,7 +5,7 @@ source: .
 destination: ./_site
 plugins_dir: ./_plugins
 lsi: true
-highlighter: true
+pygments: true
 markdown: rdiscount
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 
