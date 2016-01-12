@@ -71,7 +71,7 @@ responsive_bp: 768
 asides:
     about: true
     search: false
-    themes: true
+    themes: false
     recent_posts: true
     archive_tabs: true
     tweets: true
