@@ -31,7 +31,7 @@ email: sedstan@sedkystanleysaid.com
 
 # Configuration for blog
 lang: en
- # paginate: 4
+paginate: 4
 columns: 3
 date_format: "%B %d, %Y"
 truncate_len: 200
