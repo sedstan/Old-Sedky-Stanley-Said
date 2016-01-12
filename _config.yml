@@ -16,8 +16,8 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 # * Project page:
 #   url: http://USERNAME.github.com/REPOSITORY
 #   baseurl: /REPOSITORY
-url: http://github.com/sedstan
-baseurl: /repositories
+url: http://USERNAME.github.com
+baseurl: 
 
 # Configuration for permalink
 # `permalink`: none, pretty or /blog/:categories/:title.html
@@ -124,6 +124,9 @@ github:
 pocket: true
 
 #hatena: true
+
+
+
 
 # # Site settings
 # title: Your awesome title
