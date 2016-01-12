@@ -27,7 +27,7 @@ permalink: /blog/:year/:month/:title/
 title: Sedky Stanley Said
 description: Amateur chef | coffee connoisseur | explorer | tech lover!
 author: Sedky Stanley Said
-email: sedstan@sedky.stanley.said.com
+email: sedstan@sedkystanleysaid.com
 
 # Configuration for blog
 lang: en
@@ -70,7 +70,7 @@ responsive_bp: 768
 # CAUTION: `themes` should be false to put the script.html at the bottom.
 asides:
     about: true
-    search: true
+    search: false
     themes: true
     recent_posts: true
     archive_tabs: true
@@ -114,7 +114,7 @@ twitter:
     count: 5
     exclude_replies: true
     show_screen_name: true
-    show_follower_count: false
+    show_follower_count: true
 #    widget_id: 243046062967885824
 
 github:
