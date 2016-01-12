@@ -8,7 +8,7 @@
 
 		var getRepos = function(user, opts, callback) {
 			return $.ajax({
-				url: 'https://api.github.com' + '/users/' + user + '/repos',
+				url: 'https://github.com' + '/users/' + user + '/repos',
 				type: 'GET',
 				data: opts,
 				dataType: 'jsonp',
