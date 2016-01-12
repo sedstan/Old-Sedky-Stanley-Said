@@ -16,8 +16,8 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 # * Project page:
 #   url: http://USERNAME.github.com/REPOSITORY
 #   baseurl: /REPOSITORY
-url: https://github.com/sedstan/repositories
-baseurl: /repositories
+url: http://USERNAME.github.com
+baseurl: 
 
 # Configuration for permalink
 # `permalink`: none, pretty or /blog/:categories/:title.html
@@ -75,7 +75,7 @@ asides:
     recent_posts: true
     archive_tabs: true
     tweets: true
-    github: false
+    github: true
 
 # Configuration for pygments
 # `pygments_style`:
