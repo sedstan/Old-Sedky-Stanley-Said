@@ -16,7 +16,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 # * Project page:
 #   url: http://USERNAME.github.com/REPOSITORY
 #   baseurl: /REPOSITORY
-url: http://github.com/sedstan/repositories
+url: http://sedstan.github.io
 baseurl: 
 
 # Configuration for permalink
