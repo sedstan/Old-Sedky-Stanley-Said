@@ -25,12 +25,12 @@ permalink: /blog/:year/:month/:title/
 
 # Configuration for site
 title: Sedky Stanley Said
-description: A personal log of life coding.
-author: USERNAME
-email: USERNAME@example.com
+description: Amateur chef | coffee connoisseur | explorer | tech lover!
+author: Sedky Stanley Said
+email: sedstan@sedky.stanley.said.com
 
 # Configuration for blog
-lang: ja
+lang: en
 paginate: 4
 columns: 3
 date_format: "%B %d, %Y"
@@ -59,7 +59,7 @@ navbar_list:
 # `bootstrap`:
 # custom, original, amelia, cerulean, cyborg, journal,
 # readable, simplex, slate, spacelab, spruce, superhero, united
-bootstrap: custom
+bootstrap: slate
 bootstrap_ver: 2.3.2
 bootswatch_ver: 2.3.2
 
@@ -107,17 +107,17 @@ google_plus_one:
 # `locale`: ja_JP, en_US, es_LA, fr_FR, de_DE, it_IT, zh_CN, ko_KR, ...
 facebook:
     xfbml: false
-    locale: ja_JP
+    locale: en_US
 
 twitter:
-    username: twitterapi
+    username: sedkyssaid
     count: 5
     exclude_replies: true
     show_screen_name: true
     show_follower_count: false
 #    widget_id: 243046062967885824
 
-#github:
+github:
 #    username: USERNAME
 #    count: 5
 
