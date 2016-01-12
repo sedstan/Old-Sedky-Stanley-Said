@@ -24,7 +24,7 @@ baseurl:
 permalink: /blog/:year/:month/:title/
 
 # Configuration for site
-title: The Code Folio
+title: Sedky Stanley Said
 description: A personal log of life coding.
 author: USERNAME
 email: USERNAME@example.com
