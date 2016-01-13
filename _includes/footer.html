@@ -1,2 +1,32 @@
-	<p class="pull-right"><a href="#">Back to top</a></p>
-	<p>Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} - Powered by <a href="https://github.com/tokkonopapa/jekyll-experiment">Jekyll Experiment</a></p>
+<section id= "footer" class="footer">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2><strong>Contact Me!</strong>
+          </h2>
+          <ul class="list-unstyled">
+
+          </ul>
+          <br>
+          <ul class="list-inline">
+            <li>
+              <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-3x"></i></a>  
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            </li>
+          </ul>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
