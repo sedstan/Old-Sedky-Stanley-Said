@@ -14,15 +14,9 @@ email: sedstan@sedkystanleysaid.com
 linkedin_username: sstanleysaid
 twitter_username: sedkyssaid
 github_username: sedstan
-# address:
-#   - line:
-#   - line:
-  # Feel free to add more lines here 
-telephone:
 copyright: Sedky Stanley Said
 
-# API settings
-# google_api_key: 
+
 
 # Build settings
 markdown: kramdown
