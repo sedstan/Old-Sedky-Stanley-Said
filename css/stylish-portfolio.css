@@ -220,6 +220,7 @@ hr.small {
     display: inline-block;
     color: #ffffff;
     font-size: 2em;
+    text-align: center;
 }
 
 /* Footer */
