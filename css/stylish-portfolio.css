@@ -212,6 +212,12 @@ hr.small {
   text-align: center;
 }
 
+/* Timer*/
+
+.timer {
+    display: inline-block;
+}
+
 /* Footer */
 footer {
   color: #1A3457;
