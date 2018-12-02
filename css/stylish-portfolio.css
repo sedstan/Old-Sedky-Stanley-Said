@@ -12,6 +12,8 @@ html, body {
     max-width: 1440px;
     min-width: 320px;
     background-color: #0A1528;
+    margin: 0 auto;
+    display: block;
 }
 
 body {
@@ -214,8 +216,10 @@ hr.small {
 
 /* Timer*/
 
-.timer {
+.countDown {
     display: inline-block;
+    color: #ffffff;
+    font-size: 2em;
 }
 
 /* Footer */

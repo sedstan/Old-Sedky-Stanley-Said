@@ -20,7 +20,7 @@ let x = setInterval(() => {
 
   // Output
   document.getElementById("countDown").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds ";
 
   // If the count down is over, write some text
   if (timeRemaining < 0) {
