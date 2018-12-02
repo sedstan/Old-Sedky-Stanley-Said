@@ -7,11 +7,13 @@
 /* Global Styles */
 
 html, body {
-  width: 100%;
-  height: 100%;
-  max-width: 2560px;
-  min-width: 320px;
-  background-color: #0A1528;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+    background-color: #0A1528;
+    margin: 0 auto;
+    display: block;
 }
 
 body {
@@ -206,6 +208,14 @@ body {
 
 p.card-title {
   font-size: 2.5em;
+}
+
+/* Timer*/
+
+.countDown {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 2em;
 }
 
 /* Footer */

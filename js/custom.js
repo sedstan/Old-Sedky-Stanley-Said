@@ -1,29 +1,31 @@
-// Closes the sidebar menu
-$("#menu-close").click(function(e) {
-  e.preventDefault();
-  $("#sidebar-wrapper").toggleClass("active");
-});
 
-// Opens the sidebar menu
-$("#menu-toggle").click(function(e) {
-  e.preventDefault();
-  $("#sidebar-wrapper").toggleClass("active");
-});
+// Set target date and time
+let countDown = new Date("December 31, 2018 11:59").getTime();
 
-// Scrolls to the selected menu item on the page
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+// Update count every second
+let x = setInterval(() => {
+  // Today's date
+  let now = new Date().getTime();
 
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+  //Time remaining between now and future date
+  let timeRemaining = countDown - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  let days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+  let hours = Math.floor(
+    (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  let minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+  // Output
+  document.getElementById("countDown").innerHTML =
+    days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds ";
+
+  // If the count down is over, write some text
+  if (timeRemaining < 0) {
+    clearInterval(x);
+    document.getElementById("countDown").innerHTML = "EXPIRED";
+  }
+}, 1000);
 
