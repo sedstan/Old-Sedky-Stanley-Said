@@ -9,8 +9,8 @@
 html, body {
     width: 100%;
     height: 100%;
-    max-width: 1440px;
-    min-width: 320px;
+    max-width: 2000px;
+    min-width: 300px;
     background-color: #0A1528;
     margin: 0 auto;
     display: block;
@@ -213,10 +213,8 @@ p.card-title {
 /* Timer*/
 
 .countDown {
-    display: inline-block;
     color: #ffffff;
     font-size: 2em;
-    text-align: center;
 }
 
 /* Footer */
@@ -245,28 +243,4 @@ footer>.container-fluid {
 
 .fa:hover {
   color: #ffffff;
-}
-
-/*
-* Media Queries*
-*/
-
-@media (min-width: 320px) and (max-width: 768px) {
-  p.card-title {
-    font-size: 1.5em;
-  }
- }
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-  body {
-    padding-top: 4em;
-  }
-  footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
-  }
 }
