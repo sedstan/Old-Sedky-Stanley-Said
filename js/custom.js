@@ -1,6 +1,6 @@
 
 // Set target date and time
-let countDown = new Date("December 31, 2018 11:59").getTime();
+let countDown = new Date("October 26, 2020  11:59").getTime();
 
 // Update count every second
 let x = setInterval(() => {
@@ -28,4 +28,3 @@ let x = setInterval(() => {
     document.getElementById("countDown").innerHTML = "EXPIRED";
   }
 }, 1000);
-
