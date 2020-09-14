@@ -1,28 +1,29 @@
-<section id="footer" class="footer">
-    <footer>
-        <div class="container-fluid">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title">Find Me Below</h2>
-                    <ul class="list-unstyled footer-link">
-                        <li>
-                            <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="large">
-                    <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
-                </div>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Find Me Below</h2>
+                <ul class="list-unstyled footer-link">
+                    <li>
+                        <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i
+                                class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i
+                                class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/{{ site.github_username }}"><i
+                                class="fa fa-github fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr>
+                <p class="footer__copyright">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
             </div>
         </div>
-        </div>
-    </footer>
-</section>
+    </div>
+    </div>
+</footer>
